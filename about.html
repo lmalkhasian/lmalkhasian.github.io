@@ -1,25 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head id="head">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body>
+    	<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+		<div id="header-container">
+		</div>
+		
+		
+        <div class="main-container">
+            <div class="main wrapper clearfix">
 
-<div class="main-container">
-	<div class="main wrapper clearfix">
+                <article>
+                    <section>
+                        <h1>Welcome</h1>
+                        <p>My name is Lena (it's pronounced like Jenna with an L). I'm a 
+                        Master's student at Carnegie Mellon University studying Human-computer interaction. 
+                        I used to be a software engineer in a very short past life. I got my Bachelor's degree 
+                        in Computer Science from the University of Michigan. GO BLUE! 
+                        I'm excited to see where this year will take me :) . Please feel free to 
+                        <a href="contact.html">reach out</a> with any comments, feedback about the site or even 
+                        just to say hi.</p>
+                        <!--
+                        <p>Here's a word cloud I've created from scratch after collecting 
+                        data from my friends. I asked them to describe me in their own words, 
+                        and I didn't edit any of their responses.</p>
+                        -->
+                    </section>
+                </article>
 
-		<article>
-			<section>
-				<h1>Welcome</h1>
-				<p>My name is Lena (it's pronounced like Jenna with an L). I'm a 
-				Master's student at Carnegie Mellon University studying Human-computer interaction. 
-				I used to be a software engineer in a very short past life. I got my Bachelor's degree 
-				in Computer Science from the University of Michigan. GO BLUE! 
-				I'm excited to see where this year will take me :) . Please feel free to 
-				<a href="contact.html">reach out</a> with any comments, feedback about the site or even 
-				just to say hi.</p>
-				<!--
-				<p>Here's a word cloud I've created from scratch after collecting 
-				data from my friends. I asked them to describe me in their own words, 
-				and I didn't edit any of their responses.</p>
-				-->
-			</section>
-		</article>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
 
-	</div> <!-- #main -->
-</div> <!-- #main-container -->
 
+		<div id="footer-container">
+		</div>  
+		
+		<script>
+		    $('#head').load('head.html');
+			$('#header-container').load('header.html');
+			$('#footer-container').load('footer.html');
+		</script>
+	</body>   
+</html>
