@@ -61,7 +61,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px CenturyGothic, AppleGothic, Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
@@ -89,7 +89,7 @@ body {
 .footer-container,
 #footer-container,
 .main aside {
-    font-family: helvetica;
+    font-family: CenturyGothic, AppleGothic, helvetica;
     background: white;
 
 }
@@ -160,7 +160,7 @@ nav a:hover{
    ========================================================================== */
 
 body{
-    font: 16px/26px Caslon, Helvetica;
+    font: 16px/26px Caslon, CenturyGothic, AppleGothic, Helvetica;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -229,7 +229,7 @@ nav a.active {
     visibility:hidden;
 }
 input, textarea{
-    font: 16px/35px Caslon, Helvetica;
+    font: 16px/35px Caslon, CenturyGothic, AppleGothic, Helvetica;
     margin: 5px;
 
 }
