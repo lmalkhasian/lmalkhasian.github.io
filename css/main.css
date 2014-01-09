@@ -75,13 +75,13 @@ body {
 
 .header-container,
 #header-container {
-    border-bottom: 10px solid #A283C8;
+    border-bottom: 10px solid #8064A2;
 }
 
 .footer-container,
 #footer-container,
 .main aside {
-    border-top: 5px solid #A283C8;
+    border-top: 5px solid #8064A2;
 }
 
 .header-container,
@@ -95,7 +95,7 @@ body {
 }
 
 .title {
-    color: #6C4E90;
+    color: #8064A2;
 
 }
 
@@ -117,12 +117,12 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: #6C4E90;
+    color: #8064A2;
     background: white;
 }
 
 nav a:hover{
-    color: #a283c8;
+    color: #A9D77D;
 }
 
 /* ==============
@@ -138,12 +138,12 @@ nav a:hover{
 }
 
 .main aside {
-    color: #6C4E90;
+    color: #8064A2;
     padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: #6C4E90;
+    color: #8064A2;
     padding: 20px 0;
 }
 
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 .home-main{
     color: white;
     text-align: center;
-    background: #6C4E90;
+    background: #8064A2;
     margin-top: 0;
     margin-bottom: 0;
     padding:20px;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .colors {
-    color: #6C4E90; /*green*/
+    color: #8064A2; /*green*/
     color: #ffac40; /*orange*/
     color: #f13c76; /*pink*/
 }
@@ -197,12 +197,12 @@ h1, h2, h3, h4, h5, h6 {
 a {
     text-decoration:none;
     font-weight: bold;
-    color: #a283c8;
+    color: #A9D77D;
 }
 
 
 a:hover{
-    color: #6C4E90;
+    color: #8064A2;
 }
 
 nav a {
@@ -210,7 +210,7 @@ nav a {
 }
 
 nav a.active {
-    color: #a283c8;
+    font-weight:bold;
 }
 
 .portfolio-images img {
@@ -237,11 +237,11 @@ input, textarea{
 /*buttons*/
 .btn {
   background: #b962d6;
-  background-image: -webkit-linear-gradient(top, #6C4E90, #36FFFF);
-  background-image: -moz-linear-gradient(top, #6C4E90, #36FFFF);
-  background-image: -ms-linear-gradient(top, #6C4E90, #36FFFF);
-  background-image: -o-linear-gradient(top, #6C4E90, #36FFFF);
-  background-image: linear-gradient(to bottom, #6C4E90, #36FFFF);
+  background-image: -webkit-linear-gradient(top, #8064A2, #36FFFF);
+  background-image: -moz-linear-gradient(top, #8064A2, #36FFFF);
+  background-image: -ms-linear-gradient(top, #8064A2, #36FFFF);
+  background-image: -o-linear-gradient(top, #8064A2, #36FFFF);
+  background-image: linear-gradient(to bottom, #8064A2, #36FFFF);
   -webkit-border-radius: 17;
   -moz-border-radius: 17;
   border-radius: 17px;
@@ -254,11 +254,11 @@ input, textarea{
 
 .btn:hover {
   background: #952bb8;
-  background-image: -webkit-linear-gradient(top, #36FFFF, #6C4E90);
-  background-image: -moz-linear-gradient(top, #36FFFF, #6C4E90);
-  background-image: -ms-linear-gradient(top, #36FFFF, #6C4E90);
-  background-image: -o-linear-gradient(top, #36FFFF, #6C4E90);
-  background-image: linear-gradient(to bottom, #36FFFF, #6C4E90);
+  background-image: -webkit-linear-gradient(top, #36FFFF, #8064A2);
+  background-image: -moz-linear-gradient(top, #36FFFF, #8064A2);
+  background-image: -ms-linear-gradient(top, #36FFFF, #8064A2);
+  background-image: -o-linear-gradient(top, #36FFFF, #8064A2);
+  background-image: linear-gradient(to bottom, #36FFFF, #8064A2);
   text-decoration: none;
 }
 
@@ -318,13 +318,12 @@ generated at cssbuttongenerator.com
 }
 
 #footer-container {
-    font-weight:bold;
-    color:#6C4E90;
+    color:#8064A2;
 }
 
 #lenaimg-section {
     float:left;
-    margin-right:20px;
+    margin-right:30px;
 
 }
 #lenaimg-section img {
@@ -332,13 +331,15 @@ generated at cssbuttongenerator.com
     height:265px;
 }
 #wordcloud {
-    width:90%;
-    height:90%;
+    min-width:265px;
+    max-width:600px;
+    margin-top:10px;
 }
 
 .main-container,
 #main-container {
     min-height:200px;
+    /*background-image:url('../img/background2.jpg');*/
 }
 
 /* ==========================================================================
@@ -390,7 +391,7 @@ generated at cssbuttongenerator.com
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
+    /*.header-container,
     #header-container,
     .main aside {
         -webkit-box-shadow: 0 5px 10px #aaa;
@@ -403,7 +404,7 @@ generated at cssbuttongenerator.com
         -webkit-box-shadow: 0px -5px 10px #aaa;
            -moz-box-shadow: 0px -5px 10px #aaa;
                 box-shadow: 0px -5px 10px #aaa;
-    }
+    }*/
 
 /* ============
     WIDE: Menu
