@@ -6,24 +6,13 @@
     <head id="head">
 		<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Lena Malkhasian | Test</title>
-        <meta name="description" content="">
+        <title>Lena Malkhasian | About</title>
         <meta name="viewport" content="width=device-width">
-
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/jquery.mixitup.min.js"></script>
-		<script type="text/javascript">			
-			// INSTANTIATE MIXITUP
-			$(function(){
-				$('#Grid').mixitup();
-			});
-		</script>
-		<script src="js/mixitup_header.js"></script>
     </head>
+    
     <body>
     	<!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -31,31 +20,27 @@
 		<div id="header-container">
 		    <header class="wrapper clearfix">
 				<h1 class="title">lena malkhasian</h1>
-
 				<nav>
-					<ul >
-						<!--<li><a href="portfolio.html"><img src="img/comp.png" height="50px" width="50px"/><br/>portfolio</a></li>
-						<li><a href="resume.html"><img src="img/resume.png" height="50" width="40" /><br/>resume</a><li>
-						<li><a href="about.html"><img src="img/id.png" height="40px" width="60px" style="padding: 5px 0px;"/><br/>about</a></li>
-						<li><a href="contact.html"><img src="img/phone.png" height="50" width="40"/><br/>contact</a></li>-->
+					<ul>
 						<li><a href="work.html">WORK</a></li>
-						<li><a href="resume.pdf">RESUME</a><li>
-						<li><a href="about.html">ABOUT</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="resume.html">RESUME</a><li>
+						<li><a href="about.html" class="active">ABOUT</a></li>
 					</ul>
 				</nav>
 			</header>
-		</div>
-		
-		
+		</div>		
 		
 		
         <div class="main-container">
             <div class="main wrapper clearfix">
 
                 <article>
-                    <section>
-                        <h1>Welcome</h1>
+                    <h1>Welcome</h1>
+                    <section id="lenaimg-section">
+                        <img src="img/Lena.jpg"  alt="Lena Image" />
+                    </section>
+                   
+                    <section id="aboutme-section">
                         <p>My name is Lena (it's pronounced like Jenna with an L). I'm a 
                         Master's student at Carnegie Mellon University studying Human-computer interaction. 
                         I used to be a software engineer in a very short past life. I got my Bachelor's degree 
@@ -63,11 +48,13 @@
                         I'm excited to see where this year will take me :) . Please feel free to 
                         <a href="contact.html">reach out</a> with any comments, feedback about the site or even 
                         just to say hi.</p>
-                        <!--
-                        <p>Here's a word cloud I've created from scratch after collecting 
-                        data from my friends. I asked them to describe me in their own words, 
-                        and I didn't edit any of their responses.</p>
-                        -->
+                    </section>
+                    
+                    <section>
+                        <p>Here is a word cloud I generated after collecting 
+                            data from my closest friends. I asked them to describe me in their own words, 
+                            and I didn't edit any of their responses. Enjoy :)</p>
+                        <img src="img/wordcloud1.png" alt="Wordcloud describing Lena" id="wordcloud"/>
                     </section>
                 </article>
 
@@ -76,12 +63,23 @@
 
 
 		<div id="footer-container">
-		</div>  
+			<footer class="wrapper">
+				<p>Copyright &copy; 2014 Lena Malkhasian<br/>lmalkhasian [at] gmail [dot] com</p>
+					<a href="http://www.linkedin.com/in/lenamalkhasian"><img src="img/linkedin.png" alt="LinkedIn icon" height="30px" width="30px"
+					                onmouseover="this.src='img/linkedin_color.png'"
+                                    onmouseout="this.src='img/linkedin.png'"/></a>
+                    <a href="https://github.com/lmalkhasian/"><img src="img/github.png" alt="Github icon" height="30px" width="30px"
+					                onmouseover="this.src='img/github_color.png'"
+                                    onmouseout="this.src='img/github.png'"/></a>
+                    <a href="https://twitter.com/lenamalkhasian"><img src="img/twitter.png" alt="Twitter icon" height="30px" width="30px"
+					                onmouseover="this.src='img/twitter_color.png'"
+                                    onmouseout="this.src='img/twitter.png'"/></a>
+                    <a href="http://instagram.com/lenmalkhasian"><img src="img/instagram.png" alt="Instagram icon" height="30px" width="30px"
+					                onmouseover="this.src='img/instagram_color.png'"
+                                    onmouseout="this.src='img/instagram.png'"/></a>
+				<br/><br/>
+			</footer>
+		</div>   
 		
-		<script>
-		    $('#head').load('head.html');
-			$('#header-container').load('header.html');
-			$('#footer-container').load('footer.html');
-		</script>
 	</body>   
 </html>

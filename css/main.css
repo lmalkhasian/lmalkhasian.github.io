@@ -73,23 +73,30 @@ body {
     ALL: Orange Theme  !!!Edited to my own color
    =================== */
 
-/*.header-container {
-    border-bottom: 10px solid #36D88E;
+.header-container,
+#header-container {
+    border-bottom: 10px solid #A283C8;
 }
 
 .footer-container,
+#footer-container,
 .main aside {
-    border-top: 10px solid #36D88E;
-}*/
+    border-top: 5px solid #A283C8;
+}
 
 .header-container,
+#header-container,
 .footer-container,
+#footer-container,
 .main aside {
+    font-family: helvetica;
     background: white;
+
 }
 
 .title {
-    color: #36D88E;
+    color: #6C4E90;
+
 }
 
 /* ==============
@@ -103,25 +110,19 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding: 15px 0;
 
     text-align: center;
     text-decoration: none;
     font-weight: bold;
 
-    color: #36D88E;
+    color: #6C4E90;
     background: white;
 }
 
-nav a:hover,
-nav a:visited {
-    color: #36D88E;
-}
-
-nav a:hover {
-    /*text-decoration: underline;
-    color: #ffac40;*/
+nav a:hover{
+    color: #a283c8;
 }
 
 /* ==============
@@ -129,7 +130,7 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 .main article h1 {
@@ -137,12 +138,12 @@ nav a:hover {
 }
 
 .main aside {
-    color: #36D88E;
+    color: #6C4E90;
     padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: #36D88E;
+    color: #6C4E90;
     padding: 20px 0;
 }
 
@@ -162,10 +163,14 @@ body{
     font: 16px/26px Caslon, Helvetica;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight:bold;
+}
+
 .home-main{
     color: white;
     text-align: center;
-    background: #36D88E;
+    background: #6C4E90;
     margin-top: 0;
     margin-bottom: 0;
     padding:20px;
@@ -176,7 +181,7 @@ body{
 }
 
 .colors {
-    color: #36d88e; /*green*/
+    color: #6C4E90; /*green*/
     color: #ffac40; /*orange*/
     color: #f13c76; /*pink*/
 }
@@ -190,27 +195,72 @@ body{
 }
 
 a {
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
+    text-decoration:none;
     font-weight: bold;
-
-    color: #36D88E;
-}
-
- a:hover,
- a:visited {
-    color: #36D88E;
-}
-
- a:hover {
-    /*text-decoration: underline;
-    color: #ffac40;*/
+    color: #a283c8;
 }
 
 
+a:hover{
+    color: #6C4E90;
+}
+
+nav a {
+    font-weight:normal;
+}
+
+nav a.active {
+    color: #a283c8;
+}
+
+.portfolio-images img {
+    margin: 6px 5px;
+    width: 250px;
+    height: 250px;
+
+}
+.portfolio-images img:hover {
+    /*opacity: .5;
+    filter:alpha(opacity=50);*/
+}
+
+/*contact form*/
+.req {
+    visibility:hidden;
+}
+input, textarea{
+    font: 16px/35px Caslon, Helvetica;
+    margin: 5px;
+
+}
+
+/*buttons*/
+.btn {
+  background: #b962d6;
+  background-image: -webkit-linear-gradient(top, #6C4E90, #36FFFF);
+  background-image: -moz-linear-gradient(top, #6C4E90, #36FFFF);
+  background-image: -ms-linear-gradient(top, #6C4E90, #36FFFF);
+  background-image: -o-linear-gradient(top, #6C4E90, #36FFFF);
+  background-image: linear-gradient(to bottom, #6C4E90, #36FFFF);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 3px 15px;
+  text-decoration: none;
+  border:0px;
+}
+
+.btn:hover {
+  background: #952bb8;
+  background-image: -webkit-linear-gradient(top, #36FFFF, #6C4E90);
+  background-image: -moz-linear-gradient(top, #36FFFF, #6C4E90);
+  background-image: -ms-linear-gradient(top, #36FFFF, #6C4E90);
+  background-image: -o-linear-gradient(top, #36FFFF, #6C4E90);
+  background-image: linear-gradient(to bottom, #36FFFF, #6C4E90);
+  text-decoration: none;
+}
 
 /*
 buttons!
@@ -267,8 +317,29 @@ generated at cssbuttongenerator.com
 	width:5%;
 }
 
+#footer-container {
+    font-weight:bold;
+    color:#6C4E90;
+}
 
+#lenaimg-section {
+    float:left;
+    margin-right:20px;
 
+}
+#lenaimg-section img {
+    width:265px;
+    height:265px;
+}
+#wordcloud {
+    width:90%;
+    height:90%;
+}
+
+.main-container,
+#main-container {
+    min-height:200px;
+}
 
 /* ==========================================================================
    Media Queries
@@ -320,10 +391,18 @@ generated at cssbuttongenerator.com
    ==================== */
 
     .header-container,
+    #header-container,
     .main aside {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
+    }
+    
+    .footer-container,
+    #footer-container {
+        -webkit-box-shadow: 0px -5px 10px #aaa;
+           -moz-box-shadow: 0px -5px 10px #aaa;
+                box-shadow: 0px -5px 10px #aaa;
     }
 
 /* ============
