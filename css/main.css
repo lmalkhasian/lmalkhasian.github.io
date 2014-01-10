@@ -234,85 +234,6 @@ input, textarea{
 
 }
 
-/*buttons*/
-.btn {
-  background: #b962d6;
-  background-image: -webkit-linear-gradient(top, #8064A2, #36FFFF);
-  background-image: -moz-linear-gradient(top, #8064A2, #36FFFF);
-  background-image: -ms-linear-gradient(top, #8064A2, #36FFFF);
-  background-image: -o-linear-gradient(top, #8064A2, #36FFFF);
-  background-image: linear-gradient(to bottom, #8064A2, #36FFFF);
-  -webkit-border-radius: 17;
-  -moz-border-radius: 17;
-  border-radius: 17px;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 3px 15px;
-  text-decoration: none;
-  border:0px;
-}
-
-.btn:hover {
-  background: #952bb8;
-  background-image: -webkit-linear-gradient(top, #36FFFF, #8064A2);
-  background-image: -moz-linear-gradient(top, #36FFFF, #8064A2);
-  background-image: -ms-linear-gradient(top, #36FFFF, #8064A2);
-  background-image: -o-linear-gradient(top, #36FFFF, #8064A2);
-  background-image: linear-gradient(to bottom, #36FFFF, #8064A2);
-  text-decoration: none;
-}
-
-/*
-buttons!
-generated at cssbuttongenerator.com
-*/
-.blue-button {
-	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
-	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
-	background-color:#79bbff;
-	-webkit-border-top-left-radius:20px;
-	-moz-border-radius-topleft:20px;
-	border-top-left-radius:20px;
-	-webkit-border-top-right-radius:20px;
-	-moz-border-radius-topright:20px;
-	border-top-right-radius:20px;
-	-webkit-border-bottom-right-radius:20px;
-	-moz-border-radius-bottomright:20px;
-	border-bottom-right-radius:20px;
-	-webkit-border-bottom-left-radius:20px;
-	-moz-border-radius-bottomleft:20px;
-	border-bottom-left-radius:20px;
-	text-indent:0;
-	border:1px solid #84bbf3;
-	display:inline-block;
-	color:#ffffff !important;
-	font-family:caslon;
-	font-size:20px;
-	font-weight:bold;
-	font-style:normal;
-	height:30px;
-	line-height:30px;
-	width:150px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #528ecc;
-	margin-top: 10px;
-}
-.blue-button:hover {
-	/*background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
-	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
-	background-color:#378de5;*/
-	
-}.blue-button:active {
-	position:relative;
-	top:1px;
-}
-
 .header-logo{
 	width:5%;
 }
@@ -332,15 +253,16 @@ generated at cssbuttongenerator.com
 }
 #wordcloud {
     min-width:265px;
-    max-width:600px;
+    width:70%;
     margin-top:10px;
 }
 
 .main-container,
 #main-container {
     min-height:200px;
-    /*background-image:url('../img/background2.jpg');*/
+    background-image:url('../img/background3.jpg');
 }
+
 
 /* ==========================================================================
    Media Queries
