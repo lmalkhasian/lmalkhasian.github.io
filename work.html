@@ -11,6 +11,14 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script>
+            $(function(){
+                $('#uniqueID1').mixitup();
+            });
+        </script>
     </head>
     
     <body>
@@ -34,30 +42,19 @@
             <div class="main wrapper clearfix">
 
                 <h2>Portfolio</h2>
-
-                <section class="portfolio-images">
                 
-                    <img id="work1" src="img/work/work1_bw.png" alt="magazine project" 
-                            onmouseover="this.src='img/work/work1.png'"
-                            onmouseout="this.src='img/work/work1_bw.png'" />
+                
+                <p><strong>Filter</strong>: &nbsp&nbsp<a class="filter" data-filter="design programming research">All</a> &nbsp&nbsp| &nbsp&nbsp<a class="filter" data-filter="design">Design</a> &nbsp&nbsp| &nbsp&nbsp<a class="filter" data-filter="programming">Programming</a> &nbsp&nbsp| &nbsp&nbsp<a class="filter" data-filter="research">Research</a> </p>
+                
+                <div id="uniqueID1">
+                <a href="work/young_traveler.html"><img class="portfolio-image mix design" id="work1" src="img/work/youngTraveler_bw.png" alt="magazine project" 
+                        onmouseover="this.src='img/work/youngTraveler.png'"
+                        onmouseout="this.src='img/work/youngTraveler_bw.png'" /></a>
 
-                    <img id="work1" src="img/work/work1_bw.png" alt="magazine project" 
-                            onmouseover="this.src='img/work/work1.png'"
-                            onmouseout="this.src='img/work/work1_bw.png'" />
-                                  
-                    <img id="work1" src="img/work/work1_bw.png" alt="magazine project" 
-                            onmouseover="this.src='img/work/work1.png'"
-                            onmouseout="this.src='img/work/work1_bw.png'" />
-                            
-                    <img id="work1" src="img/work/work1_bw.png" alt="magazine project" 
-                            onmouseover="this.src='img/work/work1.png'"
-                            onmouseout="this.src='img/work/work1_bw.png'" />
-                            
-                    <img id="work1" src="img/work/work1_bw.png" alt="magazine project" 
-                            onmouseover="this.src='img/work/work1.png'"
-                            onmouseout="this.src='img/work/work1_bw.png'" />
-                    
-                </section>
+                <a href="#"><img class="portfolio-image mix programming" id="work2" src="img/work/updatemealarm.png" alt="update me alarm icon" /></a>
+
+                <a href="#"><img class="portfolio-image mix programming design" id="work3" src="img/work/dayshare.png" alt="dayshare systems icon" /></a>
+                </div>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->

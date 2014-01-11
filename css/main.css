@@ -213,13 +213,13 @@ nav a.active {
     font-weight:bold;
 }
 
-.portfolio-images img {
+.portfolio-image {
     margin: 6px 5px;
     width: 250px;
     height: 250px;
 
 }
-.portfolio-images img:hover {
+.portfolio-image:hover {
     /*opacity: .5;
     filter:alpha(opacity=50);*/
 }
@@ -261,6 +261,46 @@ input, textarea{
 #main-container {
     min-height:200px;
     background-image:url('../img/background3.jpg');
+}
+
+img {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+#footer-container img {
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+
+/**** PORTFOLIO PAGES ****/
+
+/* Main page with thumbnails*/
+#uniqueID1 .mix{
+    opacity: 0;
+    display: none;
+}
+
+/* Young Traveler */
+
+.yt-persona {
+    width:50%;
+    max-width: 400px;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+
+.yt-moodboard {
+    width: 75%;
+    max-width:600px;
+}
+.yt-content {
+    width:65%;
+    max-width:334px;
+    margin-right:30px;
 }
 
 
