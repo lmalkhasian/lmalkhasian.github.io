@@ -281,6 +281,10 @@ border-radius: 0px;
     display: none;
 }
 
+a.filter {
+    cursor:pointer;
+}
+
 /* Young Traveler */
 
 .yt-persona {
