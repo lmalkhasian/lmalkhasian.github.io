@@ -16,7 +16,7 @@
         <script src="js/jquery.mixitup.min.js"></script>
         <script>
             $(function(){
-                $('#uniqueID1').mixitup();
+                $('#portfolio-icon-wrapper').mixitup();
             });
         </script>
     </head>
@@ -27,7 +27,7 @@
         <![endif]-->
 		<div id="header-container">
 		    <header class="wrapper clearfix">
-				<h1 class="title">Lena Malkhasian</h1>
+				<h1 class="title"><a href="work.html">Lena Malkhasian</a></h1>
 				<nav>
 					<ul>
 						<li><a href="work.html" class="active">WORK</a></li>
@@ -43,17 +43,29 @@
 
                 <h2>Portfolio</h2>
                 
+                <p>
+                    <a class="filter" data-filter="design research programming other">All</a>&nbsp&nbsp| &nbsp&nbsp
+                    <a class="filter" data-filter="design">Design</a> &nbsp&nbsp| &nbsp&nbsp
+                    <a class="filter" data-filter="research">Research</a>  &nbsp&nbsp| &nbsp&nbsp
+                    <a class="filter" data-filter="programming">Programming</a>
+                </p>
                 
-                <p><strong>Filter</strong>: &nbsp&nbsp<a class="filter" data-filter="design programming research">All</a> &nbsp&nbsp| &nbsp&nbsp<a class="filter" data-filter="design">Design</a> &nbsp&nbsp| &nbsp&nbsp<a class="filter" data-filter="programming">Programming</a> &nbsp&nbsp| &nbsp&nbsp<a class="filter" data-filter="research">Research</a> </p>
+                <div id="portfolio-icon-wrapper">
+                    <a href="work/young_traveler.html"><img class="portfolio-image mix design" src="img/work/youngTraveler.jpg" alt="magazine project icon" 
+                            onmouseover="this.src='img/work/youngTraveler_bw.jpg'"
+                            onmouseout="this.src='img/work/youngTraveler.jpg'" /></a>
+
+                    <a href="work/dayshare.html"><img class="portfolio-image mix programming" src="img/work/dayshare.jpg" alt="dayshare project icon" 
+                            onmouseover="this.src='img/work/dayshare_bw.jpg'"
+                            onmouseout="this.src='img/work/dayshare.jpg'" /></a>
                 
-                <div id="uniqueID1">
-                <a href="work/young_traveler.html"><img class="portfolio-image mix design" id="work1" src="img/work/youngTraveler_bw.png" alt="magazine project" 
-                        onmouseover="this.src='img/work/youngTraveler.png'"
-                        onmouseout="this.src='img/work/youngTraveler_bw.png'" /></a>
-
-                <a href="#"><img class="portfolio-image mix programming" id="work2" src="img/work/updateMeAlarm.png" alt="update me alarm icon" /></a>
-
-                <!--<a href="#"><img class="portfolio-image mix programming design" id="work3" src="img/work/dayshare.png" alt="dayshare systems icon" /></a>-->
+                    <a href="work/#"><img class="portfolio-image mix programming" src="img/work/djrecess.jpg" alt="kinect music project icon" 
+                            onmouseover="this.src='img/work/djrecess_bw.jpg'"
+                            onmouseout="this.src='img/work/djrecess.jpg'" /></a>
+                        
+                    <a href="work/#"><img class="portfolio-image mix other" src="img/work/elephant.jpg" alt="elephant animation project icon" 
+                            onmouseover="this.src='img/work/elephant_bw.jpg'"
+                            onmouseout="this.src='img/work/elephant.jpg'" /></a>
                 </div>
 
             </div> <!-- #main -->
