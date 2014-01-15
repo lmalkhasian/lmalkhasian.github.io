@@ -78,11 +78,12 @@ body {
     border-bottom: 10px solid #8064A2;
 }
 
-.footer-container,
+/*.footer-container,
 #footer-container,
 .main aside {
     border-top: 5px solid #8064A2;
 }
+*/
 
 .header-container,
 #header-container,
@@ -159,10 +160,59 @@ nav a:hover{
    Author's custom styles
    ========================================================================== */
 
+/***** General styles *****/
+
 body{
-    font: 16px/26px Georgia, Serif;
+    font: 16px/26px CenturyGothic, Serif;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-weight:normal;
+}
+
+img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration:none;
+    color: #A9D77D;
+}
+
+a:hover{
+    color: #8064A2;
+}
+
+table tr td {
+    padding-right:25px;
+}
+
+table tr th {
+    text-align:left;
+}
+
+/***** Class & ID specific styles *****/
+
+/* For all pages: */
+.title {
+    font-size: 40px;
+    line-height:48px;
+}
+
+.title a {
+    color:#8064A2;
+}
+
+nav a {
+    font-weight:normal;
+    line-height:48px;
+}
+
+nav a.active {
+    font-weight:bold;
+}
 
 .home-main{
     color: white;
@@ -173,45 +223,61 @@ body{
     padding:20px;
 }
 
-.home-main h1 {
-    font-size: 46px;
+.main-container,
+#main-container {
+    min-height:200px;
+    /*background-image:url('../img/background3.jpg');*/
 }
 
-.colors {
-    color: #8064A2; /*green*/
-    color: #ffac40; /*orange*/
-    color: #f13c76; /*pink*/
+#footer-container {
+    color:#8064A2;
 }
 
-.footer-list ul li{
-    text-decoration:none;
-}
-
-.portfolio-images {
-    margin:5px;
-}
-
-a {
-    text-decoration:none;
-    font-weight: bold;
-    color: #A9D77D;
+#footer-container img {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
 }
 
 
-a:hover{
-    color: #8064A2;
+
+/* About Me Page: */
+#lenaimg-section {
+    float:left;
+    margin-right:30px;
+
 }
 
-nav a {
-    font-weight:normal;
+#lenaimg-section img {
+    width:265px;
+    height:265px;
 }
 
-nav a.active {
-    font-weight:bold;
+#wordcloud {
+    min-width:265px;
+    width:70%;
+    margin-top:10px;
+}
+
+
+
+
+.header-logo{
+	width:5%;
+}
+
+
+/**** PORTFOLIO PAGES ****/
+
+/* Main page with thumbnails*/
+#portfolio-icon-wrapper .mix{
+    opacity: 0;
+    display: none;
 }
 
 .portfolio-image {
-    margin: 6px 5px;
+    margin-bottom: 14px;
+    margin-right: 10px;
     width: 250px;
     height: 250px;
 
@@ -221,72 +287,11 @@ nav a.active {
     filter:alpha(opacity=50);*/
 }
 
-/*contact form*/
-.req {
-    visibility:hidden;
-}
-input, textarea{
-    font: 16px/35px Georgia, Serif;
-    margin: 5px;
-
-}
-
-.header-logo{
-	width:5%;
-}
-
-#footer-container {
-    color:#8064A2;
-}
-
-#lenaimg-section {
-    float:left;
-    margin-right:30px;
-
-}
-#lenaimg-section img {
-    width:265px;
-    height:265px;
-}
-#wordcloud {
-    min-width:265px;
-    width:70%;
-    margin-top:10px;
-}
-
-.main-container,
-#main-container {
-    min-height:200px;
-    background-image:url('../img/background3.jpg');
-}
-
-img {
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-}
-
-#footer-container img {
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border-radius: 0px;
-}
-
-
-/**** PORTFOLIO PAGES ****/
-
-/* Main page with thumbnails*/
-#uniqueID1 .mix{
-    opacity: 0;
-    display: none;
-}
-
 a.filter {
     cursor:pointer;
 }
 
 /* Young Traveler */
-
 .yt-persona {
     width:50%;
     max-width: 400px;
@@ -304,6 +309,21 @@ a.filter {
     margin-right:30px;
 }
 
+/* Dayshare */
+.dayshare-web {
+    width:75%;
+    margin-right:30px;
+    margin-bottom:30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.dayshare-app {
+    width:28%;
+    margin-right:4%;
+    margin-bottom:4%;
+}
 
 /* ==========================================================================
    Media Queries
@@ -334,6 +354,9 @@ a.filter {
     nav li:last-child a {
         margin-right: 0;
     }
+    
+
+    
 
 /* ========================
     INTERMEDIATE: IE Fixes
