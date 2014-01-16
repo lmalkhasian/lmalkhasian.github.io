@@ -75,7 +75,7 @@ body {
 
 .header-container,
 #header-container {
-    border-bottom: 10px solid #8064A2;
+    border-bottom: 5px solid #8064A2;
 }
 
 /*.footer-container,
@@ -123,7 +123,8 @@ nav a {
 }
 
 nav a:hover{
-    color: #A9D77D;
+    /*color: #A9D77D;*/
+    color: #bbbbbb;
 }
 
 /* ==============
@@ -178,7 +179,7 @@ img {
 
 a {
     text-decoration:none;
-    color: #A9D77D;
+    color: #bbbbbb;
 }
 
 a:hover{
@@ -226,7 +227,6 @@ nav a.active {
 .main-container,
 #main-container {
     min-height:200px;
-    /*background-image:url('../img/background3.jpg');*/
 }
 
 #footer-container {
@@ -258,9 +258,6 @@ nav a.active {
     width:70%;
     margin-top:10px;
 }
-
-
-
 
 .header-logo{
 	width:5%;
@@ -323,6 +320,12 @@ a.filter {
     width:28%;
     margin-right:4%;
     margin-bottom:4%;
+}
+
+/* DJ Reces */
+.djrecess-content {
+    width: 65%;
+    margin-bottom: 10px;
 }
 
 /* ==========================================================================
