@@ -20,6 +20,10 @@
             $(function(){
                 $('#portfolio-icon-wrapper').mixitup();
             });
+            
+            $('a').click(function() {
+                $(this).addClass('active');
+            });
         </script>
     </head>
     
@@ -46,7 +50,7 @@
                 <h2>Portfolio</h2>
  
                 <div class="filter-buttons">
-                    <a class="filter button" data-filter="design research programming other">All</a>
+                    <a class="filter button active" data-filter="design research programming other">All</a>
                     <a class="filter button" data-filter="design">Design</a>
                     <a class="filter button" data-filter="research">Research</a>
                     <a class="filter button" data-filter="programming">Programming</a>

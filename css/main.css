@@ -312,6 +312,10 @@ a.filter {
     background-color:#f9f9f9;
 }
 
+.button.active {
+    color:#8064a2;
+}
+
 /* Young Traveler */
 .yt-persona {
     width:40%;
