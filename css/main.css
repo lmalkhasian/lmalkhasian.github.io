@@ -240,7 +240,6 @@ nav a.active {
 }
 
 
-
 /* About Me Page: */
 #lenaimg-section {
     float:left;
@@ -292,6 +291,25 @@ nav a.active {
 
 a.filter {
     cursor:pointer;
+}
+
+.button {
+	-webkit-border-radius:6px;
+	-moz-border-radius-:6px;
+	border-radius:6px;
+
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	
+	padding: 7px 15px;
+	margin:0px 5px 7px 0px;
+	
+	text-decoration:none;
+	text-align:center;
+}
+
+.button:hover {
+    background-color:#f9f9f9;
 }
 
 /* Young Traveler */

@@ -9,7 +9,9 @@
         <title>Lena Malkhasian | Work</title>
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.css">       
+        <link rel="stylesheet" href="css/dropdown.css">
+
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -42,16 +44,19 @@
             <div class="main wrapper clearfix">
 
                 <h2>Portfolio</h2>
+ 
+                <div class="filter-buttons">
+                    <a class="filter button" data-filter="design research programming other">All</a>
+                    <a class="filter button" data-filter="design">Design</a>
+                    <a class="filter button" data-filter="research">Research</a>
+                    <a class="filter button" data-filter="programming">Programming</a>
+                    <a class="filter button" data-filter="other">Other</a>
+                </div>
+                <br/>
                 
-                <p>
-                    <a class="filter" data-filter="design research programming other">All</a>&nbsp&nbsp| &nbsp&nbsp
-                    <a class="filter" data-filter="design">Design</a> &nbsp&nbsp| &nbsp&nbsp
-                    <a class="filter" data-filter="research">Research</a>  &nbsp&nbsp| &nbsp&nbsp
-                    <a class="filter" data-filter="programming">Programming</a>
-                </p>
                 
                 <div id="portfolio-icon-wrapper">
-                    <a href="work/djrecess.html"><img class="portfolio-image mix programming" src="img/work/djrecess.jpg" alt="kinect music project icon" 
+                    <a href="work/djrecess.html"><img class="portfolio-image mix programming anim250" src="img/work/djrecess.jpg" alt="kinect music project icon" 
                             onmouseover="this.src='img/work/djrecess_bw.jpg'"
                             onmouseout="this.src='img/work/djrecess.jpg'" /></a>
 
