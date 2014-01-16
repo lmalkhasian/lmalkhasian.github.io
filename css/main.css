@@ -263,6 +263,12 @@ nav a.active {
 	width:5%;
 }
 
+.center {
+    text-align:center;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /**** PORTFOLIO PAGES ****/
 
@@ -290,7 +296,7 @@ a.filter {
 
 /* Young Traveler */
 .yt-persona {
-    width:50%;
+    width:40%;
     max-width: 400px;
     margin-right: 20px;
     margin-bottom:20px;
@@ -304,6 +310,7 @@ a.filter {
     width:65%;
     max-width:334px;
     margin-right:30px;
+    margin-bottom:10px;
 }
 
 /* Dayshare */
@@ -322,10 +329,17 @@ a.filter {
     margin-bottom:4%;
 }
 
-/* DJ Reces */
+/* DJ Recess */
 .djrecess-content {
     width: 65%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* */
+.elephant-content {
+    width: 50%;
+    margin-bottom: 20px;
+
 }
 
 /* ==========================================================================
