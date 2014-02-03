@@ -294,14 +294,14 @@ nav a.active {
     margin-right:2%;
     margin-bottom: 2%;
 
-    width: 30%;
-    height:30%;
+    width: 31%;
+    height: 30%;
 
 }
 
-.portfolio-image:hover {
-    /*opacity: .5;
-    filter:alpha(opacity=50);*/
+.portfolio-image.third {
+    margin-right:0;
+
 }
 
 a.filter {
