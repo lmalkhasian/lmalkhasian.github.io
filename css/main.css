@@ -225,11 +225,11 @@ nav a.active {
 }
 
 .wrapper h2 {
+
     text-align:center;
     font-size:30px;
     line-height:36px;
 }
-
 
 .main-container,
 #main-container {
@@ -255,8 +255,7 @@ nav a.active {
 }
 
 #lenaimg-section img {
-    width:265px;
-    height:265px;
+    max-width:265px;
 }
 
 #wordcloud {
