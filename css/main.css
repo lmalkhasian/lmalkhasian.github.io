@@ -65,8 +65,8 @@ body {
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 0 10%;
 }
 
 /* ===================
@@ -432,25 +432,6 @@ a.filter {
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    /*.header-container,
-    #header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-    
-    .footer-container,
-    #footer-container {
-        -webkit-box-shadow: 0px -5px 10px #aaa;
-           -moz-box-shadow: 0px -5px 10px #aaa;
-                box-shadow: 0px -5px 10px #aaa;
-    }*/
-
 /* ============
     WIDE: Menu
    ============ */
@@ -486,7 +467,7 @@ a.filter {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 912px; /* 1140px - 20% for margins */
         margin: 0 auto;
     }
 }
