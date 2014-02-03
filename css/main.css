@@ -276,14 +276,23 @@ nav a.active {
     opacity: 0;
     display: none;
 }
-
+/*
 .portfolio-image {
     margin-bottom: 14px;
     margin-right: 10px;
     width: 250px;
     height: 250px;
 
+}*/
+.portfolio-image {
+    margin-right:2%;
+    margin-bottom: 2%;
+
+    width: 30%;
+    height:30%;
+
 }
+
 .portfolio-image:hover {
     /*opacity: .5;
     filter:alpha(opacity=50);*/
