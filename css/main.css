@@ -78,13 +78,6 @@ body {
     border-bottom: 5px solid #8064A2;
 }
 
-/*.footer-container,
-#footer-container,
-.main aside {
-    border-top: 5px solid #8064A2;
-}
-*/
-
 .header-container,
 #header-container,
 .footer-container,
@@ -123,7 +116,6 @@ nav a {
 }
 
 nav a:hover{
-    /*color: #A9D77D;*/
     color: #bbbbbb;
 }
 
@@ -147,6 +139,14 @@ nav a:hover{
 .footer-container footer {
     color: #8064A2;
     padding: 20px 0;
+}
+
+.portfolio-image {
+        margin-right:2%;
+        margin-bottom: 2%;
+
+        width: 98%;
+        height: 98%;
 }
 
 /* ===============
@@ -229,6 +229,7 @@ nav a.active {
     text-align:center;
     font-size:30px;
     line-height:36px;
+    margin-left:-10px;
 }
 
 .main-container,
@@ -251,7 +252,6 @@ nav a.active {
 #lenaimg-section {
     float:left;
     margin-right:30px;
-
 }
 
 #lenaimg-section img {
@@ -281,27 +281,6 @@ nav a.active {
 #portfolio-icon-wrapper .mix{
     opacity: 0;
     display: none;
-}
-/*
-.portfolio-image {
-    margin-bottom: 14px;
-    margin-right: 10px;
-    width: 250px;
-    height: 250px;
-
-}*/
-.portfolio-image {
-    margin-right:2%;
-    margin-bottom: 2%;
-
-    width: 31%;
-    height: 30%;
-
-}
-
-.portfolio-image.third {
-    margin-right:0;
-
 }
 
 a.filter {
@@ -394,6 +373,13 @@ a.filter {
    Media Queries
    ========================================================================== */
 
+@media only screen and (max-width: 622px) {
+    #lenaimg-section {
+        float:none;
+        text-align:center;
+    }
+}
+
 @media only screen and (min-width: 480px) {
 
 /* ====================
@@ -420,7 +406,13 @@ a.filter {
         margin-right: 0;
     }
     
+    .portfolio-image {
+        margin-right:2%;
+        margin-bottom: 2%;
 
+        width: 47%;
+        height: 47%;
+    }
     
 
 /* ========================
@@ -463,6 +455,14 @@ a.filter {
     .main aside {
         float: right;
         width: 28%;
+    }
+    
+    .portfolio-image {
+        margin-right:2%;
+        margin-bottom: 2%;
+
+        width: 30%;
+        height: 31%;
     }
 }
 
