@@ -65,8 +65,8 @@ body {
 }
 
 .wrapper {
-    width: 80%;
-    margin: 0 10%;
+    width: 70%;
+    margin: 0 15%;
 }
 
 /* ===================
@@ -97,15 +97,24 @@ body {
     MOBILE: Menu
    ============== */
 
+.title {
+    text-align:center;
+}
+
+.filter-buttons {
+    text-align:center;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
+    text-align:center;
 }
 
 nav a {
     display: block;
     margin-bottom: 0px;
-    padding: 15px 0;
+    padding: 5px 0;
 
     text-align: center;
     text-decoration: none;
@@ -172,9 +181,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 img {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+
 }
 
 a {
@@ -282,6 +289,11 @@ nav a.active {
     opacity: 0;
     display: none;
 }
+#portfolio-icon-wrapper img{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
 
 a.filter {
     cursor:pointer;
@@ -334,9 +346,6 @@ a.filter {
     width:75%;
     margin-right:30px;
     margin-bottom:30px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
 }
 
 .dayshare-app {
@@ -363,11 +372,24 @@ a.filter {
     width:41%;
     margin-bottom: 20px;
     margin-right:4%;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
     
 }
+
+.eighty {
+    width: 80%;
+    margin-top:20px;
+    margin-bottom:20px;    
+}
+.half {
+    width: 40%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.logos {
+    width: 18%;
+}
+
 
 /* ==========================================================================
    Media Queries
@@ -473,7 +495,7 @@ a.filter {
    =============== */
 
     .wrapper {
-        width: 912px; /* 1140px - 20% for margins */
+        width: 798px; /* 1140px - 30% for margins */
         margin: 0 auto;
     }
 }
