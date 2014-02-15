@@ -61,7 +61,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Georgia, Serif;
+    font: 16px/26px CenturyGothic, AppleGothic, Helvetica;
 }
 
 .wrapper {
@@ -173,7 +173,7 @@ nav a:hover{
 /***** General styles *****/
 
 body{
-    font: 16px/26px CenturyGothic, Serif;
+    font: 16px/26px CenturyGothic, AppleGothic, Helvetica;
 }
 
 h1, h2, h3, h4, h5, h6{
