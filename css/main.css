@@ -74,11 +74,6 @@ body {
    =================== */
 
 .header-container,
-#header-container {
-    border-bottom: 5px solid #8064A2;
-}
-
-.header-container,
 #header-container,
 .footer-container,
 #footer-container,
@@ -219,7 +214,7 @@ nav a {
 }
 
 nav a.active {
-    font-weight:bold;
+    color: #bbbbbb;
 }
 
 .home-main{
@@ -391,6 +386,8 @@ a.filter {
 }
 
 
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -427,7 +424,7 @@ a.filter {
     nav li:last-child a {
         margin-right: 0;
     }
-    
+
     .portfolio-image {
         margin-right:2%;
         margin-bottom: 2%;
