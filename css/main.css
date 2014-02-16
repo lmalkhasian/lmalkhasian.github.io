@@ -207,12 +207,6 @@ table tr th {
     color:#8064A2;
 }
 
-#header-container,
-.header-container {
-    margin-top:30px;
-    margin-bottom:30px;
-}
-
 nav a {
     font-weight:normal;
     line-height:48px;
@@ -465,6 +459,12 @@ a.filter {
     nav {
         float: right;
         width: 38%;
+    }
+    
+    #header-container,
+    .header-container {
+        margin-top:30px;
+        margin-bottom:30px;
     }
 
 /* ============
