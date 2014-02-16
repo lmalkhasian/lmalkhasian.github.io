@@ -69,6 +69,11 @@ body {
     margin: 0 15%;
 }
 
+.portfolio-container .wrapper {
+    width: 75%;
+    margin: 0 11% 0 14%;
+}
+
 /* ===================
     ALL: Orange Theme  !!!Edited to my own color
    =================== */
@@ -362,7 +367,7 @@ a.filter {
     margin-bottom:30px;
 }
 
-.dayshare-app {
+.third {
     width:28%;
     margin-right:4%;
     margin-bottom:4%;
@@ -397,7 +402,7 @@ a.filter {
 .half {
     width: 40%;
     margin-top:20px;
-    margin-bottom:20px;
+    margin-bottom:4%;
 }
 
 .logos {
