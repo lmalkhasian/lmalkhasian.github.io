@@ -216,6 +216,12 @@ nav a.active {
     color: #bbbbbb;
 }
 
+#header-container,
+.header-container {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
 .home-main{
     color: white;
     text-align: center;
@@ -231,6 +237,7 @@ nav a.active {
     font-size:30px;
     line-height:36px;
     margin-left:-10px;
+    margin-top:-10px;
 }
 
 .main-container,
@@ -459,12 +466,6 @@ a.filter {
     nav {
         float: right;
         width: 38%;
-    }
-    
-    #header-container,
-    .header-container {
-        margin-top:30px;
-        margin-bottom:30px;
     }
 
 /* ============
