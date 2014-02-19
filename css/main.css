@@ -60,6 +60,13 @@ textarea {
     border-bottom: 2px dotted #8064a2;
 }
 
+@font-face
+{
+font-family: KozGoPro;
+src: url('../font/KozGoPro-EL.otf');
+font-weight:bold;
+}
+
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
@@ -88,7 +95,7 @@ body {
 .footer-container,
 #footer-container,
 .main aside {
-    font-family: CenturyGothic, AppleGothic, Helvetica;
+    font-family: CenturyGothic, AppleGothic, Helvetica Neue;
     background: white;
 }
 
@@ -381,21 +388,6 @@ a.filter {
         text-align:center;
     }
 }
-
-
-/*@media only screen and (max-width: 750px) {
-    .half {
-        width: 80%;
-        margin-top:2%;
-        margin-bottom:2%;    
-    }
-    .third {
-        width: 40%;
-        margin-top:2%;
-        margin-bottom:2%;
-    }
-}*/
-
 
 @media only screen and (min-width: 480px) {
 
