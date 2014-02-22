@@ -60,6 +60,11 @@ textarea {
     border-bottom: 2px dotted #8064a2;
 }
 
+.page-divider2 {
+    margin-bottom:40px;
+    border-top: 2px dotted #8064a2;
+}
+
 @font-face
 {
 font-family: KozGoPro;
@@ -77,14 +82,10 @@ body {
 }
 
 .wrapper {
-    width: 70%;
-    margin: 0 15%;
+    width: 90%;
+    margin: 0 5%;
 }
 
-.portfolio-container .wrapper {
-    width: 75%;
-    margin: 0 11% 0 14%;
-}
 
 /* ===================
     ALL: Orange Theme  !!!Edited to my own color
@@ -152,8 +153,8 @@ nav a:hover{
 }
 
 .main aside {
-    color: #8064A2;
-    padding: 0px 5% 10px;
+    margin-bottom:5%;
+    text-align: left;
 }
 
 .footer-container footer {
@@ -162,11 +163,11 @@ nav a:hover{
 }
 
 .portfolio-image {
-        margin-right:2%;
-        margin-bottom: 5%;
+    margin-right:2%;
+    margin-bottom: 5%;
 
-        width: 98%;
-        height: 98%;
+    width: 90%;
+    height: 90%;
 }
 
 /*pictures!*/
@@ -435,6 +436,10 @@ a.filter {
         margin-bottom:2%;
     }
     
+    .main aside {
+        text-align: center;
+    }
+    
 
     
 
@@ -473,13 +478,13 @@ a.filter {
    ============ */
 
     .main article {
-        float: left;
-        width: 57%;
+        float: right;
+        width: 75%;
     }
 
     .main aside {
-        float: right;
-        width: 28%;
+        float: left;
+        width: 20%;
     }
     
     .portfolio-image {
@@ -506,6 +511,9 @@ a.filter {
         margin-top:2%;
         margin-bottom:2%;
     }
+    .main aside {
+        text-align: left;
+    }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -515,7 +523,7 @@ a.filter {
    =============== */
 
     .wrapper {
-        width: 798px; /* 1140px - 30% for margins */
+        width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
