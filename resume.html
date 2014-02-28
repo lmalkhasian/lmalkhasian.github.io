@@ -11,6 +11,28 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<style>
+		    #column1{
+                float: none;
+                width: 100%;
+            }
+            #column2{
+                float: none;
+                width: 100%;
+            }
+            @media only screen and (min-width: 870px) {
+                
+                #column1{
+                    float: left;
+                    width: 45%;
+                    margin-right:20px;
+                }
+                #column2{
+                    float:left;
+                    width: 45%;
+                }
+            }
+		</style>
     </head>
     
     <body>
@@ -30,15 +52,40 @@
 			</header>
 		</div>	
 		
-		
-		
         <div class="main-container">
             <div class="main wrapper clearfix">
             
-                
-                <object data="lenaResume.pdf#view=fitH" type="application/pdf" width="100%" height="500px">
-                    <a href="lenaResume.pdf">Looks like you don't have a PDF Viewer for this browser. Click here to download my resume!</a>
-                </object>
+                    <h3 style="text-transform:none;"><a href="lenaResume.pdf" target="_blank">View the fancy PDF version of my resume here.</a></h3>
+                    <br/>
+                    
+                    <div id="column1" >
+                        <h2 style="text-align:left; margin-left:0px;">Education</h2>
+                        <h3>Carnegie Mellon University</h3>
+                        <p>Master of Human-Computer Interaction</p>
+                    
+                        <h3>University of Michigan</h3>
+                        <p>B.S.E Computer Science</p>
+                        <br/>
+                    </div>
+
+                    <div id="column2" >
+                        <h2 style="text-align:left; margin-left:0px;">Projects</h2>
+                        <h3>Eaton Capstone</h3>
+                        <p>User Research Lead</p>
+                    
+                        <h3>Animal Rescue League</h3>
+                        <p>User Experience Designer</p>
+                        <br/>
+
+                        <h2 style="text-align:left; margin-left:0px;">Experience</h2>
+                        <h3>Expedia Inc.</h3>
+                        <p>Software Engineer in Test</p>
+                    
+                        <h3>Microsoft Corporation</h3>
+                        <p>Software Development Engineer in Test</p>
+                    </div>
+
+
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
@@ -47,10 +94,11 @@
 
 	    <div id="footer-container">
 			<footer class="wrapper center">
+			                    <br/>
+
 				<section>&copy; 2014 Lena Malkhasian</section>
-					<a href="http://www.linkedin.com/in/lenamalk"><img src="img/linkedin.png" alt="LinkedIn icon" height="30px" width="30px" /></a>
-                    <a href="https://twitter.com/lenamalkhasian"><img src="img/twitter.png" alt="Twitter icon" height="30px" width="30px" /></a>
-                    <a href="mailto:lmalkhasian@gmail.com"><img src="img/mail.png" alt="Instagram icon" height="30px" width="30px" /></a>
+					<a href="http://www.linkedin.com/in/lenamalk" target="_blank"><img src="img/linkedin.png" alt="LinkedIn icon" height="30px" width="30px" /></a>
+                    <a href="mailto:lmalkhasian@gmail.com" target="_blank"><img src="img/mail.png" alt="Instagram icon" height="30px" width="30px" /></a>
 				<br/><br/>
 			</footer>
 		</div>  
