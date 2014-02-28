@@ -72,13 +72,20 @@ src: url('../font/KozGoPro-EL.otf');
 font-weight:bold;
 }
 
+@font-face
+{
+font-family: Questrial;
+src: url('../font/Questrial-Regular.ttf');
+font-weight:bold;
+}
+
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
 body {
-    font: 16px/26px CenturyGothic, AppleGothic, Helvetica;
+    font: 16px/26px CenturyGothic, Questrial, AppleGothic, Helvetica;
 }
 
 .wrapper {
@@ -96,7 +103,7 @@ body {
 .footer-container,
 #footer-container,
 .main aside {
-    font-family: CenturyGothic, AppleGothic, Helvetica Neue;
+    font-family: CenturyGothic, Questrial, AppleGothic, Helvetica Neue;
     background: white;
 }
 
@@ -203,7 +210,7 @@ nav a:hover{
 /***** General styles *****/
 
 body{
-    font: 16px/26px CenturyGothic, AppleGothic, Helvetica;
+    font: 16px/26px CenturyGothic, Questrial, AppleGothic, Helvetica;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -376,6 +383,11 @@ a.filter {
     width: 18%;
 }
 
+h3 {
+    font-size: 16px/26px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
 
 
 
