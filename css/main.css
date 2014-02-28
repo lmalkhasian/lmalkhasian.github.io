@@ -67,13 +67,6 @@ textarea {
 
 @font-face
 {
-font-family: KozGoPro;
-src: url('../font/KozGoPro-EL.otf');
-font-weight:bold;
-}
-
-@font-face
-{
 font-family: Questrial;
 src: url('../font/Questrial-Regular.ttf');
 font-weight:bold;
@@ -105,6 +98,10 @@ body {
 .main aside {
     font-family: CenturyGothic, Questrial, AppleGothic, Helvetica Neue;
     background: white;
+}
+
+#header-container .wrapper {
+    border-bottom: 2px dotted #8064a2;
 }
 
 .title {
