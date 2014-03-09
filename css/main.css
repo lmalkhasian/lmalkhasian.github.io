@@ -69,7 +69,6 @@ textarea {
 {
 font-family: Questrial;
 src: url('../font/Questrial-Regular.ttf');
-font-weight:bold;
 }
 
 
@@ -78,7 +77,7 @@ font-weight:bold;
    ========================================================================== */
 
 body {
-    font: 16px/26px CenturyGothic, Questrial, AppleGothic, Helvetica;
+    font: 16px/26px Questrial, AppleGothic, Helvetica;
 }
 
 .wrapper {
@@ -96,7 +95,7 @@ body {
 .footer-container,
 #footer-container,
 .main aside {
-    font-family: CenturyGothic, Questrial, AppleGothic, Helvetica Neue;
+    font-family: Questrial, AppleGothic, Helvetica Neue;
     background: white;
 }
 
@@ -207,7 +206,7 @@ nav a:hover{
 /***** General styles *****/
 
 body{
-    font: 16px/26px CenturyGothic, Questrial, AppleGothic, Helvetica;
+    font: 16px/26px Questrial, AppleGothic, Helvetica;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -386,6 +385,10 @@ h3 {
     text-transform:uppercase;
 }
 
+strong {
+    font-weight: normal;
+    text-transform:uppercase;
+}
 
 
 /* ==========================================================================
