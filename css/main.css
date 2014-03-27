@@ -13,6 +13,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-image:url("../img/backgroundtexture.png");
 }
 
 ::-moz-selection {
@@ -57,12 +58,21 @@ textarea {
 
 .page-divider {
     margin-top:40px;
-    border-bottom: 2px dotted #8064a2;
+    border-bottom: 2px dotted #000000;
 }
 
 .page-divider2 {
     margin-bottom:40px;
-    border-top: 2px dotted #8064a2;
+    border-top: 2px dotted #000000;
+}
+
+#home-welcome {
+    font-weight:normal;
+    text-align:center;
+    text-transform:none;
+}
+#home-welcome strong{
+    color: purple;
 }
 
 @font-face
@@ -96,15 +106,13 @@ body {
 #footer-container,
 .main aside {
     font-family: Questrial, AppleGothic, Helvetica Neue;
-    background: white;
 }
 
 #header-container .wrapper {
-    border-bottom: 2px dotted #8064a2;
+    border-bottom: 2px dotted black;
 }
 
 .title {
-    color: #8064A2;
 
 }
 
@@ -135,12 +143,11 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: #8064A2;
-    background: white;
+    color:black;
 }
 
 nav a:hover{
-    color: #bbbbbb;
+    color: #9c7ac5;
 }
 
 /* ==============
@@ -161,7 +168,6 @@ nav a:hover{
 }
 
 .footer-container footer {
-    color: #8064A2;
     padding: 20px 0;
 }
 
@@ -218,12 +224,12 @@ img {
 }
 
 a {
-    text-decoration:none;
-    color: #bbbbbb;
+    /*text-decoration:none;*/
+    color: #000;
 }
 
 a:hover{
-    color: #8064A2;
+    color: #9c7ac5;
 }
 
 table tr td {
@@ -243,7 +249,8 @@ table tr th {
 }
 
 .title a {
-    color:#8064A2;
+    color:black;
+    text-decoration:none;
 }
 
 nav a {
@@ -252,7 +259,7 @@ nav a {
 }
 
 nav a.active {
-    color: #bbbbbb;
+    color: #9c7ac5;
 }
 
 #header-container,
@@ -264,7 +271,6 @@ nav a.active {
 .home-main{
     color: white;
     text-align: center;
-    background: #8064A2;
     margin-top: 0;
     margin-bottom: 0;
     padding:20px;
@@ -285,7 +291,7 @@ nav a.active {
 }
 
 #footer-container {
-    color:#8064A2;
+    /*color:#8064A2;*/
 }
 
 #footer-container img {
@@ -390,6 +396,10 @@ strong {
     text-transform:uppercase;
 }
 
+.slidesjs-previous,
+.slidesjs-next{
+    text-decoration:none;
+}
 
 /* ==========================================================================
    Media Queries
