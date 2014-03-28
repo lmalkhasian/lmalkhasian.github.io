@@ -346,9 +346,9 @@ nav a.active {
 }
 
 .portfolio-image:hover{
-	-webkit-box-shadow: 0 0 20px #777777, 0 0 20px #777777;
-    -moz-box-shadow: 0 0 20px #777777,  0 0 20px #777777;
-    box-shadow: 0 0 20px #777777,  0 0 20px #777777; 
+	-webkit-box-shadow: 0 0 15px #777777, 0 0 15px #777777;
+    -moz-box-shadow: 0 0 15px #777777,  0 0 15px #777777;
+    box-shadow: 0 0 15px #777777,  0 0 15px #777777; 
 }
 
 a.filter {
