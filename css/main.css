@@ -188,8 +188,11 @@ nav a:hover{
 }
 .half {
     width: 80%;
-    margin-top:2%;
     margin-bottom:2%;
+}
+.full {
+    width: 100%;
+    margin-bottom:2%;  
 }
 
 
