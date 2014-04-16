@@ -85,6 +85,10 @@
 	ul.buttons {
 		text-align: center;
 	}
+	
+	li {
+		text-align:left;
+	}
 
 /* Wrapper */
 
