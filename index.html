@@ -1,95 +1,213 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head id="head">
-		<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Lena Malkhasian's Portfolio</title>
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">       
-
-		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-		
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="js/jquery.mixitup.min.js"></script>
-        <!--<script>
-            $(function(){
-                $('#portfolio-icon-wrapper').mixitup();
-            });
-            
-            $('a').click(function() {
-                $(this).addClass('active');
-            });
-        </script>-->
-    </head>
-    
-    <body>
-    	<!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-		<div id="header-container">
-		    <header class="wrapper clearfix">
-				<h1 class="title"><a href="/">Lena Malkhasian</a></h1>
-				<nav>
+<!DOCTYPE HTML>
+<!--
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lena Malkhasian's Portfolio</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="index loading">
+	
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1 id="logo"><a href="index.html">Lena Malkhasian</span></a></h1>
+				<nav id="nav">
 					<ul>
-						<li><a href="/" class="active">WORK</a></li>
-						<li><a href="resume.html">RESUME</a><li>
-						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="#work" class="scrolly"><span class="icon fa-laptop"></span> Work</a></li>
+						<li><a href="#about" class="scrolly"><span class="icon fa-user"></span> About Me</a></li>
+						<li><a href="lenaResume.pdf" target="_blank"><span class="icon fa-file"></span> Resume</a></li>
 					</ul>
 				</nav>
 			</header>
-		</div>	
+
+		<!-- Banner -->		
+			<section id="banner">
+				
+				<!--
+					".inner" is set up as an inline-block so it automatically expands
+					in both directions to fit whatever's inside it. This means it won't
+					automatically wrap lines, so be sure to use line breaks where
+					appropriate (<br />).
+				-->
+				<div class="inner">
+					
+					<header>
+						<h2>Hi, I'm Lena</h2>
+					</header>
+					<p>Welcome to my portfolio!<p>
+					<footer>
+						<ul class="buttons vertical">
+							<li class="button-li"><a href="#work" class="button fit scrolly center">View my Work</a></li>
+						</ul>
+					</footer>
+				
+				</div>
+				
+			</section>
 		
-        <div class="main-container portfolio-container">
-            <div class="main wrapper clearfix">
-
-                
-                
-                <h3 id="home-welcome"> Hi there! I'm Lena Malkhasian. </h3>
-                <h2>Welcome to my portfolio!<br/><br/></h2>
-                
-                <div id="portfolio-icon-wrapper" class="center">
+		<!-- Main -->
+			<article>
+				
+				<!-- One -->
+				<section id="work" class="wrapper style1 container special">
+				
+                    <header class="special container">
+                        <span class="icon fa-laptop"></span>
+					    <h2>Selected Work</h2>
+				    </header>
+                    <div class="row">
                     
-                    <a href="work/arl.html"><img class="portfolio-image mix design research" src="img/work/arl.jpg" alt="small group study icon" /></a>
+                        <div class="4u">
+                            <section>
+                                <a href="arl.html" class="image feature nobackground"><img class="keepsmall" src="img/work/arl.jpg" alt="" /></a>
+                                <header>
+                                    <h5>Independent Study Project</h5>
+                                </header>
+                            </section>
+                        </div>
 
-                    <a href="work/eaton.html"><img class="portfolio-image mix design research" src="img/work/eaton.jpg" alt="capstone project icon" /></a>        
+                        <div class="4u">
+                            <section>
+                                <a href="eaton.html" class="image feature nobackground"><img class="keepsmall" src="img/work/eaton.jpg" alt="" /></a>
+                                <header>
+                                    <h5>Capstone Project</h5>
+                                </header>
+                            </section>
+                        </div>
+                        
+                        <div class="4u">
+                            <section>
+                                <a href="kneejerk.html" class="image feature nobackground"><img class="keepsmall" src="img/work/kneejerk.jpg" alt="" /></a>
+                                <header>
+                                    <h5>Studio Assignment</h5>
+                                </header>
+                            </section>
+                        </div>
+                        
+                    </div>
                     
-                    <a href="work/kneejerk.html"><img class="portfolio-image mix design research" src="img/work/kneejerk.jpg" alt="kneejerk icon" /></a>
-
-                    <a href="work/young_traveler.html"><img class="portfolio-image mix design" src="img/work/youngTraveler.jpg" alt="e magazine icon" /></a>
-                                                
-                    <a href="work/kresge.html"><img class="portfolio-image mix design" src="img/work/kresge.jpg" alt="kresge mockup icon" /></a>
-                
-                    <a href="work/elephant.html"><img class="portfolio-image mix other" src="img/work/elephant.jpg" alt="elephant animation icon" /></a>
-
-                    <a href="work/photography.html"><img class="portfolio-image mix other" src="img/work/photography.jpg" alt="photography projects icon" /></a>
+                    <div class="row">
+                        
+                        <div class="4u">
+                            <section>
+                                <a href="youngtraveler.html" class="image feature nobackground"><img class="keepsmall" src="img/work/youngTraveler.jpg" alt="" /></a>
+                                <header>
+                                    <h5>E-Magazine</h5>
+                                </header>
+                            </section>
+                        </div>
+                        
+                        <div class="4u">
+                            <section>
+                                <a href="khri.html" class="image feature nobackground"><img class="keepsmall" src="img/work/kresge.jpg" alt="" /></a>
+                                <header>
+                                    <h5>Website Redesign</h5>
+                                </header>
+                            </section>
+                        </div>
+                        
+                        <div class="4u">
+                            <section>
+                                <a href="elephant.html" class="image feature nobackground"><img class="keepsmall" src="img/work/elephant.jpg" alt="" /></a>
+                                <header>
+                                    <h5>Sketching Animation</h5>
+                                </header>
+                            </section>
+                        </div>
                     
-                </div>
+                    </div>
+						
+					</section>
+					
+				<!-- Two -->
+					<section id="about" class="wrapper style2 container special-alt">						
+							
+						<header class="container">
+                            <h2>About Me</h2>
+						</header>
+							
+						<div class="row">
+							
+							<div class="4u">
+							    
+								<img class="image nobackground keepsmall"src="img/Lena2.jpg" />
+							
+							</div>	
+							
+							<div class="4u">
+								<span class="icon feature fa-user"></span>
+								<p>
+                                    My name is Lena (pronounced Lenna). I'm a 
+                                    Master's student at Carnegie Mellon University studying Human-computer interaction. 
+                                    I earned my Bachelor's degree in Computer Science from the University of Michigan. 
+                                    <strong style="color:#0072bc;">GO BLUE!</strong>
+								</p>
+							
+							</div>
+							
+							<div class="4u">
+								<span class="icon feature fa-heart"></span>
+								<p>
+                                    I love (or at least REALLY enjoy) 
+                                        <li>passionate people</li>
+                                        <li>interesting stories</li>
+                                        <li>smart uses of technology</li>
+                                        <li>human-centered design</li>
+                                        <li>coffee in the wintertime <br/>(and every other time)</li>
+								</p>
+							
+							</div>
+						</div>
+								
+					</section>
+					
+			</article>
 
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
 
-		<div id="footer-container">
-			<footer class="wrapper center">
-				<section>&copy; 2014 Lena Malkhasian</section>
-					<a href="http://www.linkedin.com/in/lenamalk" target="_blank"><img src="img/linkedin.png" alt="LinkedIn icon" height="30px" width="30px" /></a>
-                    <a href="mailto:lmalkhasian@gmail.com" target="_blank"><img src="img/mail.png" alt="Instagram icon" height="30px" width="30px" /></a>
-				<br/><br/>
+		<!-- CTA -->
+			<section id="cta">
+			
+				<header>
+					<h2>Comments? Feedback? <br/>Want to say hi?</h2>
+					<p>Feel free to reach out any time!</p>
+				</header>
+				<footer>
+					<ul class="buttons">
+						<li class="button-li"><a href="mailto:lmalkhasian@gmail.com" class="button special">Shoot me an email</a></li>
+					</ul>
+				</footer>
+			
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+			
+				<ul class="icons">
+					<li><a href="mailto:lmalkhasian@gmail.com" class="icon circle fa-envelope" target="_blank"><span class="label">E-mail</span></a></li>
+					<li><a href="http://www.linkedin.com/in/lenamalk" class="icon circle fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				</ul>
+				
+				<span class="copyright">&copy; Lena Malkhasian. All rights reserved. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</span>
+			
 			</footer>
-		</div>  
 
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-48128977-1', 'lenamalk.com');
-            ga('send', 'pageview');
-        </script>
-		
-	</body>   
+	</body>
 </html>
