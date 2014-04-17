@@ -30,7 +30,7 @@
 	body, input, select, textarea {
 		color: #7c8081;
 		font-family: 'Lato', sans-serif;
-		font-size: 15pt;
+		font-size: 13pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.75em;
@@ -279,11 +279,17 @@
 		    background:none;
 		}
 		
+		.image.captioned {
+		    margin-bottom:0px;
+		}
+		
 		.keepsmall {
-		    max-width:400px;
+		    max-width:350px;
 		    margin-left:auto;
 		    margin-right:auto;
 	    }
+	    
+	    
 		
 
 /* Icon */
@@ -539,6 +545,12 @@
 			min-width: 14em;
 			padding: 0.5em 0;
 		}
+		
+	.center {
+	    margin-left:auto !important;
+	    margin-right:auto !important;
+	    text-align:center;
+	}
 
 /* Wrapper */
 

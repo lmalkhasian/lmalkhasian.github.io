@@ -66,11 +66,13 @@
 	.button {
 		max-width: 20em;
 		width: 100%;
+		text-align:center !important;
 	}
 
 		.button.fit {
 			width: auto;
 		}
+		
 
 /* Lists */
 
@@ -88,6 +90,10 @@
 	
 	li {
 		text-align:left;
+	}
+	
+	.button-li {
+	    text-align:center;
 	}
 
 /* Wrapper */
