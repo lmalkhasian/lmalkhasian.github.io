@@ -22,6 +22,10 @@
 		header.special h2 + p {
 			padding-top: 1.25em;
 		}
+		
+		#name_header {
+	        display:inline;
+	    }
 
 	section {
 		margin: 1em 0 1em 0;
