@@ -644,7 +644,7 @@
 			position: absolute;
 			right: 1.5em;
 			text-transform: uppercase;
-			top: 1.75em;
+			top: 2.25em;
 		}
 
 			#header nav ul li {
@@ -689,7 +689,8 @@
 					-o-transition: all 0.2s ease-in-out;
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
-					background: rgba(188, 202, 206, 0.15);
+					background: rgba(188, 202, 206, 0.25);					
+
 				}
 
 				#header nav ul li.current > a {
