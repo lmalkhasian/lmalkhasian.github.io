@@ -111,6 +111,7 @@
 	section.special, article.special {
 		text-align: center;
 	}
+	
 
 	header.major {
 		padding-bottom: 2em;
@@ -165,6 +166,10 @@
 				font-size: 3.5em;
 				opacity: 0.35;
 			}
+			
+    #name_header {
+		display:none;
+	}
 
 	footer > :last-child {
 		margin-bottom: 0;
@@ -612,9 +617,9 @@
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
 	#header {
-		background: white;
+		background: black;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
-		color: inherit;
+		color: white;
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
