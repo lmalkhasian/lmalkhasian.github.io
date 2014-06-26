@@ -296,9 +296,10 @@
 	    }
 	    
 	    .proj-icon:hover{
-            -webkit-box-shadow: 0 0 15px #7c8081, 0 0 15px #7c8081;
+            /*-webkit-box-shadow: 0 0 15px #7c8081, 0 0 15px #7c8081;
             -moz-box-shadow: 0 0 15px #7c8081,  0 0 15px #7c8081;
-            box-shadow: 0 0 15px #7c8081,  0 0 15px #7c8081; 
+            box-shadow: 0 0 15px #7c8081,  0 0 15px #7c8081; */
+            opacity:.7;
         }
 	    
 		
