@@ -43,7 +43,7 @@
 		-o-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
-		color: #3fb1a3;
+		color: #8d75bd;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -209,7 +209,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: #8d75bd;
 		}
 
 	input[type="text"],
@@ -538,14 +538,16 @@
 		}
 
 		.button.special {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			/*background: #83d3c9;
+			border-color: #83d3c9;*/
+			background: #8d75bd;
+			border-color: #8d75bd;
 			color: white !important;
 		}
 
 			.button.special:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: rgba(141,117,189, .90) !important;
+				border-color: rgba(141,117,189, .90) !important;
 			}
 
 		.button.fit {
@@ -576,7 +578,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #8d75bd;
 			/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -591,7 +593,7 @@
 			.wrapper.style2 .button.special {
 				background: white;
 				border-color: white;
-				color: #83d3c9 !important;
+				color: #8d75bd !important;
 			}
 
 				.wrapper.style2 .button.special:hover {
@@ -772,7 +774,7 @@
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #8d75bd;
 				color: white;
 			}
 
