@@ -11,9 +11,9 @@
 /* Basic */
 
 
-	body, #skel-layers-wrapper {
+	/*body, #skel-layers-wrapper {
 		background: #f3f6fa;
-	}
+	}*/
 
 	body.loading * {
 		-moz-animation: none !important;
@@ -29,7 +29,8 @@
 	}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		/*color: #7c8081;*/
+		color:black;
 		font-family: 'Lato', sans-serif;
 		font-size: 13pt;
 		font-weight: 300;
@@ -908,7 +909,7 @@
 /* Footer */
 
 	#footer {
-		background: #e8eef4;
+		background: #eeeeee;
 		color: #7c8081;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
