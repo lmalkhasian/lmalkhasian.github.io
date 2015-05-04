@@ -910,9 +910,9 @@
 /* Footer */
 
 	#footer {
-		background: #eeeeee;
-		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		background: black;
+		color: white;
+		padding: 0em 5em 10em 0em;
 		text-align: center;
 	}
 
