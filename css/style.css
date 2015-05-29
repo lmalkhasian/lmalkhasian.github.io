@@ -860,6 +860,13 @@
 			#banner .inner footer {
 				margin: 2em 0 0 0;
 			}
+			
+			
+	
+	.hero img {
+		    width:100%; 
+		border-bottom: solid 1px #eeeeee;
+    }
 
 /* Main */
 
@@ -868,7 +875,7 @@
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;*/
-		padding: 7em 0;
+		padding: 3em 0;
 	}
 
 		#main > :last-child {
